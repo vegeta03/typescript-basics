@@ -1,9 +1,7 @@
 // 01. printing "Hello, World!!!"
-// console.log("Hello, World!!!")
+console.log('Hello, World!!!');
 
-// Primitive Types
-
-// number type
+// number type, arguments and functions
 
 // let pizzaCost: number = 10;
 const pizzaCost: number = 10;
@@ -14,3 +12,6 @@ function calculatePrice(cost: number, toppings: number): number {
 }
 
 const cost: number = calculatePrice(pizzaCost, pizzaToppings);
+
+// ES6 string literal
+console.log(`Pizza cost is ${cost}`);
