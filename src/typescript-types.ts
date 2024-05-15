@@ -88,4 +88,11 @@
 // total = sumOrder(25, 2);
 // console.log(`sumOrder(25, 2) is ${total}`);
 
-// typed functions and default parameters
+// // typed functions and default parameters
+// let sumOrder: (price: number, quantity?: number) => number;
+// sumOrder = (x, y = 1) => x * y;
+
+// let total = sumOrder(25);
+// console.log(`sumOrder(25) is ${total}`);
+// total = sumOrder(25, 2);
+// console.log(`sumOrder(25, 2) is ${total}`);
