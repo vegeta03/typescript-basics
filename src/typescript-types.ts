@@ -116,4 +116,6 @@
 // let toppings: Array<string>;
 // toppings = ['pepperoni', 'tomato', 'bacon'];
 
-// tuple types for arrays
+// // tuple types for arrays
+// let pizza: [string, number, boolean];
+// pizza = ['Pepperoni', 25, true];
