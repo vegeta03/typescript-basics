@@ -27,16 +27,25 @@
 
 // orderError('Something went wrong');
 
-// null, undefined, strict null checks
-let coupon: string | null = 'pizza25';
+// // null, undefined, strict null checks
+// let coupon: string | null = 'pizza25';
 
-function removeCoupon() {
-  coupon = null;
-}
+// function removeCoupon() {
+//   coupon = null;
+// }
 
-console.log(coupon);
-removeCoupon();
-console.log(coupon);
+// console.log(coupon);
+// removeCoupon();
+// console.log(coupon);
 
-//  union and literal types
+// //  union and literal types
+// let pizzaSize: string = 'small';
 
+// function selectPizzaSize(size: 'small' | 'medium' | 'large'): void {
+//   pizzaSize = size;
+// }
+
+// selectPizzaSize('medium');
+// console.log(`Pizza size is ${pizzaSize}`);
+
+// `function` types
