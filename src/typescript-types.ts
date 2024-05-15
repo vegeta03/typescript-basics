@@ -96,3 +96,15 @@
 // console.log(`sumOrder(25) is ${total}`);
 // total = sumOrder(25, 2);
 // console.log(`sumOrder(25, 2) is ${total}`);
+
+// // Object types
+// let pizza: { name: string; price: number; getName(): string };
+// pizza = {
+//   name: 'Plain Old Pepperoni',
+//   price: 25,
+//   getName() {
+//     return pizza.name;
+//   },
+// };
+
+// console.log(pizza.getName());
